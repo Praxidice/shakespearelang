@@ -375,6 +375,7 @@ class Shakespeare:
             if len(number_input) == 0:
                 raise Exception('No numeric input was given.')
 
+            self._input_buffer = ''
             self._character_opposite(character).value = int(number_input)
         elif input_op.input_char:
             input_char = ord(self._input_buffer[0])

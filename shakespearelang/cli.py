@@ -32,3 +32,6 @@ def debug(file):
     with open(file, 'r') as f:
         play = f.read()
         debug_play(play)
+
+if __name__ == '__main__':
+    main()
